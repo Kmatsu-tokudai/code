@@ -12,15 +12,16 @@
  シェルスクリプトへの実行権限付与： 
  chmod u+x mecab-analyze.sh
  
- 形態素解析結果の出力 
+ 形態素解析結果の出力:  
  ./mecab-analyze.sh 
  
  
- コンパイル方法： gcc -o make_bigram make_bigram.c 
+ コンパイル方法： 
+ gcc -o make_bigram make_bigram.c 
 
-実行方法： 
-chmod u+x make_bigram
-./make_bigram
+ 実行方法： 
+ chmod u+x make_bigram
+ ./make_bigram
 
 
 ```
