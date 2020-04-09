@@ -2,8 +2,10 @@
 
 * 第2回：プログラミング作法 
  
- 単語N-gramを作るプログラム 
  
+** 単語N-gramを作るプログラム 
+ 
+```
  形態素解析器のインストール： 
  sudo apt install mecab 
  
@@ -20,4 +22,6 @@
 chmod u+x make_bigram
 ./make_bigram
 
+
+```
 
