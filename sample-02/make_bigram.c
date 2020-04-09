@@ -83,4 +83,4 @@ int main(void)
   fclose(ofp);
 
 }		
-I'd like to become an AAAC member.This mail attached the PayPal payment receipt.
+
