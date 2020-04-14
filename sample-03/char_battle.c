@@ -5,6 +5,12 @@
 入力した文字列をもとに主人公/敵の初期ステータスを計算し、
 ランダムな値により勝敗を決めるゲーム
 
+[コンパイル方法]
+$ make
+
+[実行方法]
+$ ./char_battle [主人公の名前] [敵の名前]
+
 
 */
 
@@ -222,7 +228,7 @@ PM battle( PM player, PM enemy )
       }
       else{
 	player.hp-=r2%7 + 1;
-	message(8, player.name, "NULL", r2%7+1, "NULL", 0 );
+	message(9, player.name, "NULL", r2%7+1, "NULL", 0 );
       }
     }
     puts("-------------------------------------\n");
