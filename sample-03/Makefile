@@ -1,6 +1,6 @@
-TARGET=char_rpg
+TARGET=char_battle
 CC=gcc
-SRCS=char_rpg.c
+SRCS=char_battle.c
 
 $(TARGET): $(SRCS)
 	$(CC) -o $@ $^
