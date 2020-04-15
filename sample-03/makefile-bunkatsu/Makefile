@@ -7,7 +7,7 @@ CC=gcc
 $(TARGET): $(SRCS) $(OBJS)
 	$(CC) -o $@ $(OBJS)
 
-.C.O:
+.c.o:
 	$(CC) -c $<
 
 
